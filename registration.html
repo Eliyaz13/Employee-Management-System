@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register</title>
+   <link rel="stylesheet" href="registrationformstyle.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body style="background-image: url(https://cdn.pixabay.com/photo/2012/03/04/00/01/background-21717_1280.jpg);">
+
+	<div class="menu-bar">
+        <h3 class="logo">saikumar</h1>
+
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact Us</a></li>
+
+        </ul>
+    </div>
+    
+    <div class="container">
+			<form action="Register">
+				<h2>Registration</h2>
+				
+				
+            <div class="input-box">
+                <div class="input-field">
+                     <input type="text" placeholder="FullName" name="fullname" required >
+                     <i class='bx bxs-user'></i>
+                </div>
+
+                <div class="input-field">
+                    <input type="text" placeholder="Username" name="username" required >
+                    <i class='bx bxs-user'></i>
+               </div>
+
+            </div>
+			  <div class="input-box">
+                <div class="input-field">
+                    <input type="email" placeholder="Email" name="email" required>
+                    <i class='bx bxs-envelope' ></i>
+                </div>
+
+                <div class="input-field">
+                    <input type="number" placeholder="PhoneNumber" name="phonenumber" required>
+                    <i class='bx bxs-phone' ></i>
+
+               </div>
+            </div>
+				
+            <div class="input-box">
+
+               <div class="input-field">
+                    <input type="password" placeholder="Password" name="password" required>
+                    <i class='bx bxs-lock-alt' ></i>
+                </div>
+
+                <div class="input-field">
+                    <input type="password" placeholder="ConfirmPassword" name="confirmpassword" required>
+                    <i class='bx bxs-lock-alt' ></i>
+               </div>
+
+            </div>
+            
+            
+            <label><input type="checkbox">I hearby declare that the above imformation provided is true and correct</label><br>
+			<input type="submit" value="Register" class="btn">	
+			</form>
+	</div>
+
+</body>
+</html>
